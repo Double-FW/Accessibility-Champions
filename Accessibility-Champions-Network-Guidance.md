@@ -175,6 +175,7 @@ Actions:
 - set up a community platform such as Microsoft Teams or Slack
 - agree on training requirements and reporting cadence
 - establish a baseline assessment of current accessibility maturity
+- join CAN (Champions of Accessibility Network)
 
 Success indicators:
 
@@ -247,6 +248,7 @@ For a mid-sized organization of around 500 people, a realistic starting model ma
 - Training, tools, and learning platform costs: $20,000 to $30,000+
 - Community tools and communication platform support: $2,000 to $10,000+
 - Recognition and events: $5,000 to $15,000+
+- CAN corporate membership and sponsorship: $6,200
 - Champion time allocation: embedded within existing roles and budgets
 
 This is not just a training budget. It is an investment in organizational capability, risk reduction, and customer value.
