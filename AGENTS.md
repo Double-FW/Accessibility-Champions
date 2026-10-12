@@ -1,7 +1,52 @@
+---
+title: "Accessibility Champions Network Agent"
+version: "1.1"
+author: "Gareth Ford Williams, Double FW Ltd"
+date: "2026"
+license: "CC-BY-4.0"
+language: "en"
+repository: "Double-FW/Accessibility-Champions"
+artifact_type: "agent_knowledge_base"
+use_case: "organizational_accessibility_maturity"
+entities:
+  - "Accessibility Sponsor"
+  - "Champions Network Manager"
+  - "Accessibility Champion"
+  - "Business Accessibility Champion"
+  - "Network governance"
+  - "Training framework"
+  - "Community and culture"
+  - "Metrics and measurement"
+  - "Implementation roadmap"
+  - "Risk mitigation"
+---
+
 # Accessibility Champions Network Agent
 ## Strategic Framework for Organizational Accessibility Maturity
 
 **Purpose**: Enable management systems across commercial and public sector organizations to understand, implement, and sustain a well-financed accessibility champions network as a core business capability.
+
+**AI / Automation Usage**:
+- This document is intended for both human readers and AI-assisted workflows.
+- Use it as a primary source of truth for roles, governance, maturity planning, financial assumptions, and implementation checkpoints.
+- Prefer structured extraction of the metadata in this document for automation, dashboards, planning tools, and governance reporting.
+- When generating summaries, recommendations, or roadmaps, maintain the strategic framing: accessibility champions are an embedded organizational capability, not a one-off compliance project.
+
+**Primary Use Cases**:
+- Executive briefing and business case development
+- Program design and governance setup
+- Team onboarding and role definition
+- Training plan design and maturity assessment
+- Budget and ROI modeling
+- KPI dashboard and reporting definition
+
+**Expected Output Formats**:
+- Executive summary briefing (1-2 pages)
+- Project plan / phased roadmap
+- Roles and responsibilities matrix
+- Training curriculum overview
+- Dashboard of KPIs and benchmarks
+- Risk register with mitigation actions
 
 ---
 
@@ -9,7 +54,7 @@
 
 ### Strategic Value Proposition
 
-An **Accessibility Champions Network** is a distributed, cross-organizational capability that embeds accessibility into everyday operations, decision-making, and culture. For medium to large organizations (50+ employees), this network:
+An **Accessibility Champions Network** is a distributed, cross-organizational capability that embeds accessibility into everyday operations, decision-making, and culture. For medium to large organizations, it creates a practical bridge between policy, delivery, and lived user experience.
 
 - **Reduces compliance and legal risk** by embedding accessibility into sprint cycles and product decisions
 - **Improves market reach** by ensuring products/services meet WCAG 2.1 and legal standards (ADA, EN 301 549, AODA, etc.)
@@ -320,7 +365,7 @@ Develop specialized tracks for:
 
 **Individual Recognition**:
 - Monthly spotlights (internal newsletters, town halls)
-- Achievements badges or certificates
+- Achievement badges or certificates
 - Public recognition in team and company communications
 - Invitations to present at industry events or conferences
 
@@ -529,9 +574,172 @@ An **Accessibility Champions Network** is not a compliance initiative or a tempo
 ✓ **Improves culture** and employee retention  
 ✓ **Drives sustainable**, long-term accessibility maturity  
 
-For commercial and public sector organizations seeking to move beyond compliance and build accessibility into their organizational DNA, a well-financed and supported champions network is the most cost-effective, scalable, and culturally-integrated approach available.
+For commercial and public sector organizations seeking to move beyond compliance and build accessibility into their organizational DNA, a well-financed and supported champions network is the most cost-effective route to sustained maturity.
 
 **The investment is clear. The ROI is compelling. The time to act is now.**
+
+---
+
+## 14. Structured Metadata for AI Consumption
+
+The following metadata is intentionally formatted for machine readability and extraction by AI agents, models, and automation tools.
+
+```yaml
+roles:
+  accessibility_sponsor:
+    title: "Accessibility Sponsor"
+    level: "strategic"
+    role_definition: "Senior leader providing strategic direction, organizational authority, and resource allocation."
+    responsibilities:
+      - "Secure and allocate budget for champions program, training, and tools"
+      - "Champion accessibility in executive and board-level decisions"
+      - "Remove organizational barriers"
+      - "Align accessibility goals with business strategy and regulatory requirements"
+      - "Measure ROI and communicate impact to stakeholders"
+    reporting_line: "Chief Digital Officer, Chief Compliance Officer, Chief People Officer, or equivalent"
+    time_commitment: "ad hoc strategic leadership"
+    typical_fte: "0"
+
+  champions_network_manager:
+    title: "Champions Network Manager"
+    level: "operational"
+    role_definition: "Dedicated coordinator managing day-to-day network operations, growth, and sustainability."
+    responsibilities:
+      - "Recruit, onboard, and support champions across departments"
+      - "Design and deliver training pathways"
+      - "Facilitate knowledge sharing and community events"
+      - "Track champions program metrics"
+      - "Maintain champions communication channel"
+      - "Manage recognition programs"
+      - "Report progress to Sponsor and leadership"
+    time_commitment: "0.5-1.0 FTE"
+    typical_fte: "0.5-1.0"
+
+  accessibility_champion:
+    title: "Accessibility Champion"
+    level: "operational"
+    role_definition: "Embedded accessibility advocate within their team or department."
+    responsibilities:
+      - "Ensure accessibility is a standing agenda item in sprint planning and team meetings"
+      - "Review deliverables for accessibility compliance"
+      - "Coach teammates on WCAG standards and best practices"
+      - "Escalate accessibility issues and blockers"
+      - "Share learning within and across teams"
+      - "Mentor junior team members"
+      - "Participate in champions community and training events"
+    expected_time_commitment: "5-10 hours/week"
+    ratio: "1 champion per team or 1 per 5-10 employees"
+
+  business_accessibility_champion:
+    title: "Business Accessibility Champion"
+    level: "management"
+    role_definition: "Bridge between team-level champions and strategic leadership."
+    responsibilities:
+      - "Coordinate champions within a business unit or division"
+      - "Track and report on accessibility metrics and progress"
+      - "Identify and resolve cross-team accessibility barriers"
+      - "Ensure accessibility is embedded in business planning cycles"
+      - "Connect team-level champions to organizational strategy"
+      - "Support champions with resources and advocacy"
+    typical_span: "50-200 employees across one or more business units"
+
+phases:
+  - name: "Foundation"
+    timeframe: "Months 1-3"
+    objective: "Establish governance, recruit core team, and build awareness"
+  - name: "Scale"
+    timeframe: "Months 4-12"
+    objective: "Expand network, embed into processes, and demonstrate early impact"
+  - name: "Maturity"
+    timeframe: "Months 13-24"
+    objective: "Sustain network, integrate into organizational DNA, and drive strategic impact"
+
+key_metrics:
+  champion_recruitment_rate: "1 per 8-10 people"
+  participation_engagement_rate: "85%+"
+  retention_of_champions: "80%+ annually"
+  training_completion_rate: "90%+ foundational; 50%+ intermediate"
+  wcag_compliance_target: "2.1 Level AA or higher"
+  annual_roi: "3-5x investment"
+  payback_period: "6-18 months"
+
+financial_profile:
+  organization_size: "500-person org"
+  annual_investment_usd: "270000-375000"
+  payback_window_months: "6-18"
+```
+
+```json
+{
+  "document": {
+    "title": "Accessibility Champions Network Agent",
+    "version": "1.1",
+    "author": "Gareth Ford Williams, Double FW Ltd",
+    "date": "2026",
+    "license": "CC-BY-4.0",
+    "purpose": "Strategic framework for accessibility champions network implementation across commercial and public sector organizations"
+  },
+  "roles": [
+    {
+      "id": "accessibility_sponsor",
+      "title": "Accessibility Sponsor",
+      "level": "strategic",
+      "time_commitment": "ad hoc strategic leadership",
+      "fte": 0
+    },
+    {
+      "id": "champions_network_manager",
+      "title": "Champions Network Manager",
+      "level": "operational",
+      "time_commitment": "0.5-1.0 FTE",
+      "fte": 0.5
+    },
+    {
+      "id": "accessibility_champion",
+      "title": "Accessibility Champion",
+      "level": "operational",
+      "time_commitment": "5-10 hours/week",
+      "fte": 0.1
+    },
+    {
+      "id": "business_accessibility_champion",
+      "title": "Business Accessibility Champion",
+      "level": "management",
+      "time_commitment": "part-time oversight",
+      "fte": 0.2
+    }
+  ],
+  "phase_summary": [
+    {
+      "name": "Foundation",
+      "timeframe": "Months 1-3",
+      "objective": "Establish governance, recruit core team, and build awareness"
+    },
+    {
+      "name": "Scale",
+      "timeframe": "Months 4-12",
+      "objective": "Expand network, embed into processes, and demonstrate early impact"
+    },
+    {
+      "name": "Maturity",
+      "timeframe": "Months 13-24",
+      "objective": "Sustain network, integrate into organizational DNA, and drive strategic impact"
+    }
+  ]
+}
+```
+
+### Agent Prompting Patterns
+
+Use the document as a basis for the following prompt styles:
+
+- "Create a 90-day accessibility champions launch plan for a 500-person organization."
+- "Summarize the executive business case for an accessibility champions network in under 200 words."
+- "List the risks of launching a champions network without a sponsor and manager."
+- "Design a tiered training curriculum for accessibility champions across product, design, engineering, QA, and leadership."
+- "Produce a quarterly reporting template for accessibility network health and ROI."
+
+Use these prompts to generate outputs that are concise, structured, and aligned to measurable business outcomes.
 
 ---
 
@@ -562,8 +770,9 @@ For commercial and public sector organizations seeking to move beyond compliance
 
 **Document Information**  
 **Author**: Gareth Ford Williams, Double FW Ltd  
-**Version**: 1.0  
+**Version**: 1.1  
 **Date**: 2026  
 **Purpose**: Strategic framework for accessibility champions network implementation across commercial and public sector organizations  
 **Distribution**: Internal and external organizational use; no warranty provided  
+**License**: CC-BY-4.0 (preferred) or organization-specific licensing if required by internal policy  
 **Attribution**: Creative Commons or organization-specific licensing (to be specified)
