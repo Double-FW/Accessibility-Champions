@@ -1,273 +1,160 @@
 # Accessibility-Champions
 Establishing an Accessibility Champions Network
 
-## Resource Overview
+## Repository purpose
 
-This document defines a governance-oriented Accessibility Champions and Sponsors framework designed to support organisational change management, accessibility culture development, and enterprise-wide capability building.
+This repository provides a practical framework for establishing, resourcing, and managing an Accessibility Champions Network in a way that is sustainable, measurable, and culturally embedded.
 
-The framework is structured as an operational knowledge resource suitable for Retrieval-Augmented Generation (RAG), AI-assisted organisational governance systems, workforce enablement programmes, leadership support tools, and accessibility maturity planning.
+It is designed to support both:
 
-The document positions accessibility champions networks not simply as awareness programmes, but as scalable organisational infrastructure for embedding accessibility into day-to-day operational behaviour and governance.
+- human readers: leaders, accessibility professionals, HR, managers, and champions
+- agentic systems: AI assistants and automated governance tools that need structured guidance when working with accessibility change initiatives
 
-The framework recognises that sustainable accessibility maturity depends on distributed organisational ownership rather than reliance on isolated specialist teams.
-
-## AGENTS.md guidance
-
-This repository includes an [AGENTS.md](./AGENTS.md) file that provides operational guidance for AI agents and automated systems working with this project.
-
-The AGENTS.md guidance is intended to ensure that AI-supported work remains aligned with the repository’s purpose and principles, including:
-
-- supporting accessibility and inclusion as core organisational capabilities
-- preserving the behavioural and governance intent of the framework
-- avoiding oversimplification of organisational change and culture work
-- escalating decisions that require human oversight, leadership review, or operational context
-- maintaining the distinction between governance, culture-building, and technical compliance activities
-
-When using AI to analyse, summarise, transform, or generate content from this repository, review [AGENTS.md](./AGENTS.md) first so the output stays consistent with the repository’s intended use and guardrails.
+The repository takes a governance and organisational change perspective. It is not simply a technical accessibility checklist. It is intended to help organisations build distributed ownership for accessibility, strengthen inclusion, and embed accessibility into normal operational practice.
 
 ---
 
-## Primary Purpose
+## What is in this repository
 
-This resource exists to:
-
-- support the creation of accessibility champions networks
-- embed accessibility into organisational culture
-- distribute accessibility ownership across teams
-- support accessibility-focused change management
-- improve long-term accessibility sustainability
-- strengthen organisational accessibility maturity
-- develop accessibility leadership capability
-- support knowledge sharing and community building
-- improve operational accessibility accountability
-- create scalable accessibility governance models
-- support workforce accessibility education and engagement
-
-The framework is intended to help organisations operationalise accessibility as a shared organisational responsibility rather than a siloed specialist function.
+- [AGENTS.md](./AGENTS.md): operational guidance for AI agents and automated systems using this repository
+- [Accessibility-Champions-Network-Guidance.md](./Accessibility-Champions-Network-Guidance.md): human-readable guidance for establishing and managing the network
+- [README.md](./README.md): overview, context, and intended use for both human and agentic audiences
 
 ---
 
-## Intended AI Usage
+## Why this repository exists
 
-This resource may be used for:
+Accessibility maturity does not improve through isolated policy documents or one-off training programmes alone. It grows when an organisation:
 
-- Retrieval-Augmented Generation (RAG)
-- organisational change management systems
-- workforce enablement assistants
-- accessibility governance copilots
-- learning and development systems
-- internal communications assistants
-- leadership coaching systems
-- HR and organisational culture platforms
-- accessibility maturity evaluation
-- onboarding and training systems
-- community management assistants
-- operational governance systems
-- enterprise transformation programmes
-- employee engagement systems
+- creates leadership sponsorship
+- gives accessibility work clear ownership
+- builds local capability across teams
+- supports community learning and knowledge sharing
+- measures outcomes and governance over time
+- treats accessibility as an operational and cultural responsibility, not a specialist-only task
 
-AI systems should interpret this framework as a behavioural and cultural governance resource rather than a technical accessibility implementation guide.
+This repository provides the structure for that work.
 
 ---
 
-## Recommended AI System Types
+## Human use: how leaders and teams can use it
 
-This resource may benefit:
+This resource is intended for people who are responsible for:
 
-- organisational governance agents
-- workplace culture assistants
-- HR and people operations systems
-- accessibility programme management systems
-- employee learning platforms
-- leadership enablement assistants
-- change management copilots
-- internal communications systems
-- organisational maturity assessment tools
-- workforce collaboration platforms
-- accessibility onboarding assistants
-- inclusion governance systems
-- enterprise transformation agents
+- accessibility strategy and governance
+- organisational change and inclusion
+- internal communications and engagement
+- leadership sponsorship and programme delivery
+- HR, L&D, and workforce capability
+- design, product, engineering, support, and operations teams
 
----
+For human audiences, the repository supports:
 
-## Behavioural Expectations
+- defining the network scope and governance model
+- identifying executive sponsorship and operational ownership
+- appointing champions and business champions
+- determining expected time, resources, and success measures
+- designing training pathways and community activities
+- reporting impact to leadership and stakeholders
+- building a sustainable accessibility culture across teams
 
-AI systems using this resource should:
-
-- encourage collaborative accessibility ownership
-- support psychologically safe learning environments
-- recognise accessibility as a cultural and operational capability
-- avoid framing champions as isolated accessibility experts
-- encourage distributed responsibility models
-- support gradual organisational maturity development
-- reinforce supportive and inclusive communication practices
-- recognise the importance of executive sponsorship
-- promote sustainable community-building approaches
-- encourage knowledge sharing and continuous learning
-- escalate organisational barriers requiring leadership intervention
-
-AI systems should avoid creating unrealistic expectations that champions alone are responsible for organisational accessibility success.
+The human guidance file provides a practical implementation framework that can be used directly in planning and execution.
 
 ---
 
-## Source Governance
+## Agentic use: how AI systems should use this repository
 
-When using this resource:
+This repository is also intended to support AI-assisted organisational systems and assistant tools.
 
-- preserve semantic relationships between sponsors, champions, managers, and governance structures
-- maintain distinctions between strategic leadership and operational champion roles
-- preserve behavioural and cultural intent
-- retain contextual rationale alongside operational recommendations
-- avoid oversimplifying organisational change dynamics
-- preserve emphasis on collaboration, support, and learning culture
-- avoid reducing the framework into a purely training checklist
+AI systems using this repository should:
 
-This framework should be treated as an organisational change and governance methodology rather than a compliance implementation guide.
+- treat the material as a governance and cultural framework, not a purely technical implementation guide
+- preserve distinctions between sponsors, champions, managers, and operational teams
+- maintain the relationship between organisational culture, capability-building, and accessibility maturity
+- avoid collapsing organisational change work into a simple training checklist
+- reinforce distributed accountability rather than placing all responsibility on a specialist team
+- escalate decisions that require human oversight, leadership review, or organisational context
+- recognise that success depends on sponsorship, resources, follow-through, and culture change
 
----
-
-## RAG and Retrieval Guidance
-
-For Retrieval-Augmented Generation systems:
-
-- preserve section relationships between:
-  - champions
-  - sponsors
-  - managers
-  - training
-  - recognition
-  - knowledge sharing
-- maintain links between organisational culture and accessibility maturity
-- preserve implementation guidance alongside intended outcomes
-- avoid separating behavioural principles from operational recommendations
-- preserve summary principles as a coherent governance model
-- maintain contextual relationships between support systems and sustainability outcomes
-
-Chunking strategies should prioritise organisational coherence and behavioural continuity rather than isolated instructional extraction.
-
-The framework performs best when retrieved as connected organisational governance reasoning blocks.
+AI systems should not assume that champion structures alone guarantee accessibility maturity. The repository explicitly frames accessibility as a shared organisational capability supported by leadership, governance, community, measurement, and continuous learning.
 
 ---
 
-## Accessibility and Inclusion Considerations
+## Operating principles
 
-This framework supports inclusion through:
+The repository is grounded in the following principles:
 
-- distributed organisational ownership
-- psychologically safe learning cultures
-- collaborative operational practices
-- leadership accountability
-- peer support networks
-- inclusive knowledge sharing
-- workforce capability development
-- sustainable accessibility governance
-- cross-functional collaboration
-- operational accessibility integration
-
-The document recognises that accessibility maturity is influenced by:
-
-- organisational culture
-- leadership support
-- workforce confidence
-- communication structures
-- learning opportunities
-- operational accountability
-- governance visibility
-- community sustainability
-- recognition systems
-
-The framework explicitly recognises accessibility as a human, operational, and cultural capability rather than solely a technical discipline.
+- accessibility is a shared business and cultural responsibility
+- champions are enablers, not isolated experts
+- sponsorship and resource allocation are essential to success
+- capability grows through practice, feedback, and community learning
+- governance and accountability are needed alongside awareness and training
+- sustainable change depends on operational integration, not periodic campaigns
 
 ---
 
-## Human Oversight Requirements
+## Intended outcomes
 
-Human review is recommended for:
+The repository supports organisations that want to:
 
-- organisational change strategy
-- sponsor selection
-- champions network governance
-- workforce engagement planning
-- accessibility leadership decisions
-- training programme design
-- recognition frameworks
-- organisational communications
-- conflict resolution
-- operational accountability models
-- employee wellbeing considerations
-
-Human oversight is especially important where organisational culture, leadership dynamics, or workforce morale may be affected.
+- create a dedicated and credible Accessibility Champions Network
+- increase local ownership of accessibility within teams
+- improve accessibility maturity across products, services, and processes
+- embed accessibility into planning, delivery, and decision-making
+- improve inclusion, staff confidence, and service quality
+- reduce rework, risk, and barriers associated with late-stage remediation
 
 ---
 
-## Limitations
+## Repository posture for humans and agents
 
-This resource cannot independently guarantee:
+This repository is deliberately built to support both:
 
-- organisational accessibility maturity
-- workforce engagement success
-- executive sponsorship quality
-- sustained participation levels
-- effectiveness of training programmes
-- organisational behaviour change
-- accessibility compliance outcomes
-- successful change adoption across all teams
+- human decision-making and organisational change work
+- structured AI assistance that needs a clear behavioural and governance context
 
-The framework should operate alongside operational accessibility governance, leadership support, workforce feedback, and accessibility expertise.
+Together, these two modes make the resource more useful in real organisations. Human teams bring context, judgement, and accountability. AI systems bring summarisation, retrieval, and operational support when used within the repository’s guardrails.
 
 ---
 
-## Integration Recommendations
+## Governance and guardrails
 
-This resource may be integrated into:
+When using the repository, whether manually or via AI assistance:
 
-- accessibility transformation programmes
-- organisational change initiatives
-- workforce capability strategies
-- leadership development programmes
-- accessibility governance frameworks
-- onboarding systems
-- employee engagement initiatives
-- internal communications strategies
-- learning and development platforms
-- enterprise culture programmes
-- inclusion and diversity strategies
-- accessibility maturity models
-
-For best results, the framework should operate alongside:
-
-- accessibility governance systems
-- accessibility training programmes
-- operational accessibility standards
-- executive sponsorship structures
-- inclusion analytics
-- employee feedback systems
-- workforce accessibility strategies
-- accessibility communities of practice
-- change management frameworks
+- keep the network framed as an organisational capability, not just a campaign
+- preserve the role distinctions between sponsor, network manager, business champions, and team champions
+- avoid oversimplifying network design or reducing it to generic training content
+- maintain emphasis on culture, trust, accountability, measurement, and leadership support
+- apply human oversight where governance, change management, or workforce impact is involved
 
 ---
 
-## Maintenance and Governance
+## Recommended starting points
 
-This resource should be:
+For a person or team beginning this work, a sensible progression is:
 
-- version controlled
-- reviewed alongside organisational governance changes
-- updated as accessibility maturity evolves
-- validated against workforce feedback and operational outcomes
-- reviewed collaboratively with accessibility, HR, leadership, and operational teams
-- monitored for participation and engagement effectiveness
-- updated to reflect evolving organisational structures and communication models
+1. confirm executive sponsorship
+2. define network scope, roles, and responsibilities
+3. allocate the network manager and champion time
+4. recruit initial champions across key teams
+5. deliver foundational training and community engagement
+6. establish metrics and review cadence
+7. scale across the organisation with sustained governance
 
-Updates should preserve behavioural intent, organisational context, and sustainability principles.
+For AI-assisted work, the repository should be used to support planning, summarisation, analysis, and drafting while staying within the behavioural constraints described in [AGENTS.md](./AGENTS.md).
 
 ---
 
-## Operational Inclusion Intent
+## Summary
 
-The purpose of this framework is not simply to create a volunteer accessibility network.
+This repository is a practical and strategic resource for building a successful Accessibility Champions Network. It supports both human organisational leadership and AI-assisted governance workflows, while keeping the focus on sustainable change, inclusion, accountability, and accessibility maturity.
 
-Its broader purpose is to help organisations distribute accessibility ownership, develop sustainable inclusion capability, strengthen organisational culture, and embed accessibility into everyday operations.
+The repository is most valuable when used as a living framework for action, not as a static document of principles alone.
 
-This resource is intended to support both human and AI-assisted governance systems in recognising that long-term accessibility maturity depends on community, accountability, leadership support, sustained learning, and consistent operational practice.
+---
+
+## Related files
+
+- [AGENTS.md](./AGENTS.md)
+- [Accessibility-Champions-Network-Guidance.md](./Accessibility-Champions-Network-Guidance.md)
+
