@@ -3,13 +3,27 @@ Establishing an Accessibility Champions Network
 
 ## Resource Overview
 
-This document defines a governance-oriented Accessibility Champions and Sponsors framework designed to support organisational change management, accessibility culture development, and enterprise-wide inclusion maturity.
+This document defines a governance-oriented Accessibility Champions and Sponsors framework designed to support organisational change management, accessibility culture development, and enterprise-wide capability building.
 
-The framework is structured as an operational knowledge resource suitable for Retrieval-Augmented Generation (RAG), AI-assisted organisational governance systems, workforce enablement programmes, leadership development workflows, and accessibility transformation initiatives.
+The framework is structured as an operational knowledge resource suitable for Retrieval-Augmented Generation (RAG), AI-assisted organisational governance systems, workforce enablement programmes, leadership support tools, and accessibility maturity planning.
 
-The document positions accessibility champions networks not simply as awareness programmes, but as scalable organisational infrastructure for embedding accessibility into day-to-day operational behaviour, decision-making, collaboration, governance, and delivery culture.
+The document positions accessibility champions networks not simply as awareness programmes, but as scalable organisational infrastructure for embedding accessibility into day-to-day operational behaviour and governance.
 
 The framework recognises that sustainable accessibility maturity depends on distributed organisational ownership rather than reliance on isolated specialist teams.
+
+## AGENTS.md guidance
+
+This repository includes an [AGENTS.md](./AGENTS.md) file that provides operational guidance for AI agents and automated systems working with this project.
+
+The AGENTS.md guidance is intended to ensure that AI-supported work remains aligned with the repository’s purpose and principles, including:
+
+- supporting accessibility and inclusion as core organisational capabilities
+- preserving the behavioural and governance intent of the framework
+- avoiding oversimplification of organisational change and culture work
+- escalating decisions that require human oversight, leadership review, or operational context
+- maintaining the distinction between governance, culture-building, and technical compliance activities
+
+When using AI to analyse, summarise, transform, or generate content from this repository, review [AGENTS.md](./AGENTS.md) first so the output stays consistent with the repository’s intended use and guardrails.
 
 ---
 
@@ -254,6 +268,6 @@ Updates should preserve behavioural intent, organisational context, and sustaina
 
 The purpose of this framework is not simply to create a volunteer accessibility network.
 
-Its broader purpose is to help organisations distribute accessibility ownership, develop sustainable inclusion capability, strengthen organisational culture, and embed accessibility into everyday operational behaviour across teams, functions, and leadership structures.
+Its broader purpose is to help organisations distribute accessibility ownership, develop sustainable inclusion capability, strengthen organisational culture, and embed accessibility into everyday operations.
 
-This resource is intended to support both human and AI-assisted governance systems in recognising that long-term accessibility maturity depends on community, accountability, leadership support, shared learning, and sustained organisational participation.
+This resource is intended to support both human and AI-assisted governance systems in recognising that long-term accessibility maturity depends on community, accountability, leadership support, sustained learning, and consistent operational practice.
