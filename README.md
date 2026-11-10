@@ -1,160 +1,108 @@
-# Accessibility-Champions
-Establishing an Accessibility Champions Network
+# Accessibility Champions
 
-## Repository purpose
+**Build, support and sustain an accessibility champions network that helps change how your organisation works.**
 
-This repository provides a practical framework for establishing, resourcing, and managing an Accessibility Champions Network in a way that is sustainable, measurable, and culturally embedded.
+Accessibility champions connect people, knowledge and everyday decisions. With leadership support, protected time and continuing development, they can help teams address barriers earlier and make accessibility part of normal practice.
 
-It is designed to support both:
+This knowledge base provides guidance for the people establishing and running those networks, and for AI agents helping them research, plan and review the work. It covers organisational culture, sponsorship, roles, resources, learning, community, reporting and continuous improvement.
 
-- human readers: leaders, accessibility professionals, HR, managers, and champions
-- agentic systems: AI assistants and automated governance tools that need structured guidance when working with accessibility change initiatives
+> “Culture eats compliance for breakfast.”
+>
+> — Gareth Ford Williams
 
-The repository takes a governance and organisational change perspective. It is not simply a technical accessibility checklist. It is intended to help organisations build distributed ownership for accessibility, strengthen inclusion, and embed accessibility into normal operational practice.
+Standards and evaluation remain essential. Culture influences whether people make time to act on them, ask for help and sustain improvements.
 
----
+## Start here
 
-## What is in this repository
+| What you want to do | Where to start |
+| --- | --- |
+| Establish a network or strengthen an existing one | [Accessibility Champions Network Guidance](./Accessibility-Champions-Network-Guidance.md) |
+| Connect your managers and champions with a wider community | [Connecting networks through CAN](./CAN_Connecting_Accessibility_Champions_Networks.md) |
+| Connect the network with wider accessibility programme decisions and reporting | [Programme Operating and Reporting Map](./Programme_Operating_and_Reporting_Map.md) |
+| Find practical management activities and example AI prompts | [Programme Management Activities and Prompts](./Accessibility-Champions-RAG-and-Prompts/Programme_Management_Activities_and_Prompts.md) |
+| Use the repository with an AI assistant or agent | Read [AGENTS.md](./AGENTS.md), then the relevant current guidance |
+| Prepare material for retrieval-augmented generation (RAG) | Read the [RAG Reference](./Accessibility-Champions-RAG-and-Prompts/RAG_Reference.md) alongside [Source Coverage](./Accessibility-Champions-RAG-and-Prompts/Source_Coverage.md) and the snapshot note below |
 
-- [AGENTS.md](./AGENTS.md): operational guidance for AI agents and automated systems using this repository
-- [Accessibility-Champions-Network-Guidance.md](./Accessibility-Champions-Network-Guidance.md): human-readable guidance for establishing and managing the network
-- [README.md](./README.md): overview, context, and intended use for both human and agentic audiences
+## For people: turn commitment into everyday practice
 
----
+The guidance is useful to executive sponsors, accessibility leads, network managers, business and team champions, and colleagues in HR, learning, communications, procurement, product, design, engineering and service delivery.
 
-## Why this repository exists
+It helps you explore:
 
-Accessibility maturity does not improve through isolated policy documents or one-off training programmes alone. It grows when an organisation:
+- **Purpose:** which employee and customer barriers the network should help address.
+- **Sponsorship:** how leaders provide direction, resources and routes to resolve blockers.
+- **Roles:** how sponsors, network managers, business champions and team champions work together.
+- **Capacity:** how to provide protected time, coordination and access to specialist support.
+- **Learning:** how to combine role-based development, practice, coaching and peer exchange.
+- **Culture:** how to make asking questions, sharing experience and challenging barriers part of everyday work.
+- **Outcomes:** how to understand network health and its contribution to better products, services and working practices.
 
-- creates leadership sponsorship
-- gives accessibility work clear ownership
-- builds local capability across teams
-- supports community learning and knowledge sharing
-- measures outcomes and governance over time
-- treats accessibility as an operational and cultural responsibility, not a specialist-only task
+### A practical reading and planning route
 
-This repository provides the structure for that work.
+1. **Define the purpose.** Use the main guidance to identify the network’s scope and the outcomes it should support.
+2. **Agree support and responsibilities.** Develop proposals for sponsorship, coordination, champion roles and protected capacity with the people who can authorise them.
+3. **Start with a manageable scope.** Plan recruitment, accessible onboarding, continuing learning and connections to existing workflows.
+4. **Build relationships inside and outside the organisation.** Create ways for champions to ask for help, share learning and engage with CAN.
+5. **Review and adapt.** Use the programme map to connect evidence, unresolved barriers and resource needs with accountable decisions.
 
----
+Adapt the approach to your organisation’s brand, culture, size and maturity. Staffing ranges, budgets, time allocations, phase durations and meeting schedules in the source guidance are planning examples. Validate them locally; confirm current CAN membership or sponsorship terms directly with its organisers.
 
-## Human use: how leaders and teams can use it
+Champions enable and connect. Operational owners remain responsible for their products, services and processes, supported by specialists and leadership. Disabled people should influence the work without being expected to represent everyone or carry the responsibility for fixing exclusion.
 
-This resource is intended for people who are responsible for:
+## Connect with CAN
 
-- accessibility strategy and governance
-- organisational change and inclusion
-- internal communications and engagement
-- leadership sponsorship and programme delivery
-- HR, L&D, and workforce capability
-- design, product, engineering, support, and operations teams
+Every organisation’s network is different, but many face similar change management challenges: sustaining participation, influencing without formal authority, securing time and turning awareness into action.
 
-For human audiences, the repository supports:
+The **Champions of Accessibility Network (CAN)**, run by **Heather Hepburn, Charlie Turrell and Gareth Ford Williams**, connects practitioners across organisations and disciplines. Regular engagement can help network managers exchange approaches and help individual champions feel supported as part of a much bigger movement.
 
-- defining the network scope and governance model
-- identifying executive sponsorship and operational ownership
-- appointing champions and business champions
-- determining expected time, resources, and success measures
-- designing training pathways and community activities
-- reporting impact to leadership and stakeholders
-- building a sustainable accessibility culture across teams
+The [CAN guidance](./CAN_Connecting_Accessibility_Champions_Networks.md) explains the value for organisations, managers and members, with suggestions for reciprocal learning, accessible participation and bringing useful experience back into local practice.
 
-The human guidance file provides a practical implementation framework that can be used directly in planning and execution.
+## For agents: use the knowledge with context
 
----
+This repository can inform skills, RAG knowledge sources and MCP-enabled workflows that support accessibility programme work. It supplies guidance and prompts; building or connecting those systems requires separate implementation.
 
-## Agentic use: how AI systems should use this repository
+Start with [AGENTS.md](./AGENTS.md) for repository-specific operating guidance. Then retrieve the documents relevant to the task, preserving their purpose, context and evidence limits.
 
-This repository is also intended to support AI-assisted organisational systems and assistant tools.
+### Choose sources by task
 
-AI systems using this repository should:
+| Agent task | Main source | Useful supporting source |
+| --- | --- | --- |
+| Draft a network charter, role model, capacity proposal or learning plan | Network Guidance | Activities and Prompts |
+| Review engagement, peer support or connections beyond the organisation | CAN guidance | Network Guidance |
+| Draft programme reporting or clarify delivery handoffs | Programme Operating and Reporting Map | Network Guidance |
+| Retrieve material from the packaged reference | RAG Reference | Source Coverage and the current source files |
 
-- treat the material as a governance and cultural framework, not a purely technical implementation guide
-- preserve distinctions between sponsors, champions, managers, and operational teams
-- maintain the relationship between organisational culture, capability-building, and accessibility maturity
-- avoid collapsing organisational change work into a simple training checklist
-- reinforce distributed accountability rather than placing all responsibility on a specialist team
-- escalate decisions that require human oversight, leadership review, or organisational context
-- recognise that success depends on sponsorship, resources, follow-through, and culture change
+### Produce reviewable work
 
-AI systems should not assume that champion structures alone guarantee accessibility maturity. The repository explicitly frames accessibility as a shared organisational capability supported by leadership, governance, community, measurement, and continuous learning.
+When using this repository:
 
----
+1. Establish the task, audience, organisational context, available evidence and intended decision. Mark missing information as unknown.
+2. Read the relevant current sources. For substantive recommendations, cite the file and section; include the commit or revision where available.
+3. Distinguish source guidance, supplied organisational evidence, assumptions, inferences and recommendations.
+4. Preserve the different responsibilities of sponsors, network managers, business champions, team champions, specialists and operational owners.
+5. Treat example budgets, schedules and staffing models as adaptable proposals. Do not invent approvals, appointments, research findings or completed evaluations.
+6. Return a concrete draft with dependencies, unresolved questions and decisions for the responsible people. Repository content does not confer authority to adopt policy, allocate resources or communicate on an organisation’s behalf.
 
-## Operating principles
+Keep network activity, organisational capability, technical findings and human outcomes distinct. Attendance and membership counts alone cannot establish accessibility, conformance or improved user experience.
 
-The repository is grounded in the following principles:
+### Example prompt
 
-- accessibility is a shared business and cultural responsibility
-- champions are enablers, not isolated experts
-- sponsorship and resource allocation are essential to success
-- capability grows through practice, feedback, and community learning
-- governance and accountability are needed alongside awareness and training
-- sustainable change depends on operational integration, not periodic campaigns
+> Use this repository to propose an accessibility champions network for [organisation and context]. Read AGENTS.md and the relevant current guidance. Consider sponsorship, network management, business and team champions, protected capacity, continuing development, operational handoffs and regular CAN engagement. Cite the files and sections used. Separate supplied evidence, assumptions, recommendations and unknowns. Return a proposed charter, a manageable pilot plan and decisions for the sponsor. Treat source costs and durations as illustrative. Identify how we could evaluate network health and changes in practice without assuming participation proves accessibility.
 
----
+### Check the reference snapshot
 
-## Intended outcomes
+The packaged RAG reference was prepared on **8 November 2026** from commit `e26813bd11f327129e4833169ca95e65c4646d14`. Its source IDs describe four files at that revision.
 
-The repository supports organisations that want to:
+It predates the CAN guidance, programme operating map and subsequent AGENTS.md changes. Check the current files before relying on it for present-day repository coverage. Preserve its original source IDs and revision when citing the snapshot; cite newer documents separately.
 
-- create a dedicated and credible Accessibility Champions Network
-- increase local ownership of accessibility within teams
-- improve accessibility maturity across products, services, and processes
-- embed accessibility into planning, delivery, and decision-making
-- improve inclusion, staff confidence, and service quality
-- reduce rework, risk, and barriers associated with late-stage remediation
+The reference also mentions a preserved `Sources/` directory that is absent from the current repository inventory. Use its embedded source bodies or pinned GitHub links rather than assuming that directory is available.
 
----
+## Contributing improvements
 
-## Repository posture for humans and agents
+Useful contributions include clearer guidance, accessible participation approaches, practical examples and evidence-informed improvements. Explain the context and limits of examples, protect confidential information and update navigation when adding or renaming documents.
 
-This repository is deliberately built to support both:
+When changing source material, review affected prompts and references. Keep historical snapshots clearly dated rather than presenting them as automatically current.
 
-- human decision-making and organisational change work
-- structured AI assistance that needs a clear behavioural and governance context
+## Licence
 
-Together, these two modes make the resource more useful in real organisations. Human teams bring context, judgement, and accountability. AI systems bring summarisation, retrieval, and operational support when used within the repository’s guardrails.
-
----
-
-## Governance and guardrails
-
-When using the repository, whether manually or via AI assistance:
-
-- keep the network framed as an organisational capability, not just a campaign
-- preserve the role distinctions between sponsor, network manager, business champions, and team champions
-- avoid oversimplifying network design or reducing it to generic training content
-- maintain emphasis on culture, trust, accountability, measurement, and leadership support
-- apply human oversight where governance, change management, or workforce impact is involved
-
----
-
-## Recommended starting points
-
-For a person or team beginning this work, a sensible progression is:
-
-1. confirm executive sponsorship
-2. define network scope, roles, and responsibilities
-3. allocate the network manager and champion time
-4. recruit initial champions across key teams
-5. deliver foundational training and community engagement
-6. establish metrics and review cadence
-7. scale across the organisation with sustained governance
-
-For AI-assisted work, the repository should be used to support planning, summarisation, analysis, and drafting while staying within the behavioural constraints described in [AGENTS.md](./AGENTS.md).
-
----
-
-## Summary
-
-This repository is a practical and strategic resource for building a successful Accessibility Champions Network. It supports both human organisational leadership and AI-assisted governance workflows, while keeping the focus on sustainable change, inclusion, accountability, and accessibility maturity.
-
-The repository is most valuable when used as a living framework for action, not as a static document of principles alone.
-
----
-
-## Related files
-
-- [AGENTS.md](./AGENTS.md)
-- [Accessibility-Champions-Network-Guidance.md](./Accessibility-Champions-Network-Guidance.md)
-
+The repository is licensed under the [MIT Licence](./LICENSE). Consult that file for the terms, and retain applicable copyright and permission notices when reusing the material. Historical snapshots may preserve earlier file-level notices; do not silently rewrite them.
