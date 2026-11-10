@@ -1,0 +1,32 @@
+{
+  "source_repository": "Double-FW/Accessibility-Champions",
+  "destination_dataset": "GarethFW/Accessibility_Champions_Networks",
+  "dataset_version": "1.0.0",
+  "files": [
+    "AGENTS.md",
+    "Accessibility-Champions-Network-Guidance.md",
+    "Accessibility-Champions-RAG-and-Prompts/Programme_Management_Activities_and_Prompts.md",
+    "Accessibility-Champions-RAG-and-Prompts/RAG_Reference.md",
+    "Accessibility-Champions-RAG-and-Prompts/README.md",
+    "Accessibility-Champions-RAG-and-Prompts/Source_Coverage.md",
+    "CAN_Connecting_Accessibility_Champions_Networks.md",
+    "Programme_Operating_and_Reporting_Map.md",
+    "README.md"
+  ],
+  "required_files": [
+    "AGENTS.md",
+    "Accessibility-Champions-Network-Guidance.md",
+    "Accessibility-Champions-RAG-and-Prompts/Programme_Management_Activities_and_Prompts.md",
+    "Accessibility-Champions-RAG-and-Prompts/RAG_Reference.md",
+    "Accessibility-Champions-RAG-and-Prompts/README.md",
+    "Accessibility-Champions-RAG-and-Prompts/Source_Coverage.md",
+    "CAN_Connecting_Accessibility_Champions_Networks.md",
+    "Programme_Operating_and_Reporting_Map.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "document_only_files": [
+    "Accessibility-Champions-RAG-and-Prompts/RAG_Reference.md"
+  ],
+  "approved_license_sha256": "3cbaae77c6486b1d262cf7ff79cbcb4be21205fdcf09bea8e9375ae94973619e"
+}
