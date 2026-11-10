@@ -297,7 +297,7 @@ For a mid-sized organization of around 500 people, a realistic starting model ma
 - Training, tools, and learning platform costs: $20,000 to $30,000+
 - Community tools and communication platform support: $2,000 to $10,000+
 - Recognition and events: $5,000 to $15,000+
-- CAN corporate membership and sponsorship: $6,200
+- Optional CAN corporate sponsorship: $10,000
 - Champion time allocation: embedded within existing roles and budgets
 
 This is not just a training budget. It is an investment in organizational capability, risk reduction, and customer value.
