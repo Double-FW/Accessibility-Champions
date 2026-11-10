@@ -178,7 +178,7 @@ language:
 - en
 license: other
 license_name: mit-with-embedded-historical-cc-by-4.0-notice
-license_link: LICENSE_NOTICES.md
+license_link: https://huggingface.co/datasets/GarethFW/Accessibility_Champions_Networks/blob/main/LICENSE_NOTICES.md
 tags:
 - accessibility
 - organisational-change
