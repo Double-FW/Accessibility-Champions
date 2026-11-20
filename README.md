@@ -89,19 +89,17 @@ Keep network activity, organisational capability, technical findings and human o
 
 > Use this repository to propose an accessibility champions network for [organisation and context]. Read AGENTS.md and the relevant current guidance. Consider sponsorship, network management, business and team champions, protected capacity, continuing development, operational handoffs and regular CAN engagement. Cite the files and sections used. Separate supplied evidence, assumptions, recommendations and unknowns. Return a proposed charter, a manageable pilot plan and decisions for the sponsor. Treat source costs and durations as illustrative. Identify how we could evaluate network health and changes in practice without assuming participation proves accessibility.
 
-### Check the reference snapshot
+### Check the selected-source reference
 
-The packaged RAG reference was prepared on **8 November 2026** from commit `e26813bd11f327129e4833169ca95e65c4646d14`. Its source IDs describe four files at that revision.
+The packaged [RAG reference](Accessibility-Champions-RAG-and-Prompts/RAG_Reference.md) was refreshed on **20 November 2026** from the selected current guidance, agent governance and MIT licence. It now includes CAN peer-networking guidance and the programme operating map. [Source coverage](Accessibility-Champions-RAG-and-Prompts/Source_Coverage.md) records the exact source revision and hashes.
 
-It predates the CAN guidance, programme operating map and subsequent AGENTS.md changes. Check the current files before relying on it for present-day repository coverage. Preserve its original source IDs and revision when citing the snapshot; cite newer documents separately.
-
-The reference also mentions a preserved `Sources/` directory that is absent from the current repository inventory. Use its embedded source bodies or pinned GitHub links rather than assuming that directory is available.
+Original IDs S001–S004 remain stable; CAN guidance and the programme map are S005–S006. This is a six-source knowledge edition, not a copy of every tracked file. It links to canonical source paths and does not claim a separate source-copy folder. Previous editions and their original notices remain in Git history; they are not presented as the current retrieval edition.
 
 ## Contributing improvements
 
 Useful contributions include clearer guidance, accessible participation approaches, practical examples and evidence-informed improvements. Explain the context and limits of examples, protect confidential information and update navigation when adding or renaming documents.
 
-When changing source material, review affected prompts and references. Keep historical snapshots clearly dated rather than presenting them as automatically current.
+When changing selected source material, refresh the compiled reference and coverage using the instructions in the [resource-pack README](Accessibility-Champions-RAG-and-Prompts/README.md), and review affected prompts. The dataset export checks source hashes and compiled bodies before publishing. Keep historical copies clearly dated rather than presenting them as automatically current.
 
 ## Licence
 
