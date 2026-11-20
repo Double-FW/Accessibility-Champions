@@ -1,17 +1,17 @@
 # Source coverage for Accessibility Champions
 
-Source revision: `3a4744e9745ac715efbe6b5d4c29b4c7c541af81`. Prepared 2026-11-20.
+Source revision: `d1cf60029c53c74a6293020b5b6c8ea501f2742f`. Prepared 2026-11-20.
 
 This register covers 6 selected knowledge/governance/rights files, not every tracked file. Canonical source bodies are complete in the RAG reference with the disclosed navigation transformation. SHA-256 and Git blob hashes below identify the original UTF-8 bytes before transformation. Hash agreement establishes source correspondence, not truth, currency, approval or effectiveness. External linked contents, Git history and the derived pack itself are outside this source set.
 
 | Source ID | Canonical source at pinned revision | Bytes | Git blob SHA | SHA-256 |
 | --- | --- | ---: | --- | --- |
-| S001 | [Accessibility-Champions-Network-Guidance.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Accessibility-Champions-Network-Guidance.md) | 19151 | `7e911646134efd70ccca18cc888e818ff2b8f700` | `1ad9600a7aa0995ac39ab7564ce6619eb8d7d969411cf23ce5044e24f51d8e8a` |
-| S002 | [README.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/README.md) | 9909 | `018d44b96d7260e6e8b9c8b64155db60ed60ae42` | `0b13af33e11624e80bbee77163a6a32407f5677cf0e551a52adf34bdb1a14d0e` |
-| S003 | [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/AGENTS.md) | 14071 | `ce8dea28bf3f0f1792e723d8731546651c055ed0` | `3cdd29a5eee52d9253365ae7f9580c07a28eab45667d741170c6cbe7747dab31` |
-| S004 | [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/LICENSE) | 1066 | `14a8ed43d478e8bf5a3c0af35d2e89554f7667c5` | `3cbaae77c6486b1d262cf7ff79cbcb4be21205fdcf09bea8e9375ae94973619e` |
-| S005 | [CAN_Connecting_Accessibility_Champions_Networks.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/CAN_Connecting_Accessibility_Champions_Networks.md) | 14174 | `50f6481a206fb1d02305548823b18014207d17f1` | `8e1a6670458dbd1d147b4d8095444d326fa2df7d08c00486bde295753a064347` |
-| S006 | [Programme_Operating_and_Reporting_Map.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Programme_Operating_and_Reporting_Map.md) | 7961 | `0ad4d680c6d6a6d07ad2470f7cbbaa6e183b64fb` | `d6356d851901f0057c3f698d587b103f178377b299e29b76984150a18b334d8e` |
+| S001 | [Accessibility-Champions-Network-Guidance.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/Accessibility-Champions-Network-Guidance.md) | 19151 | `7e911646134efd70ccca18cc888e818ff2b8f700` | `1ad9600a7aa0995ac39ab7564ce6619eb8d7d969411cf23ce5044e24f51d8e8a` |
+| S002 | [README.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/README.md) | 10188 | `ca6fdbe74ae6bde4e522d723fceafb4172f03ccc` | `0a918eb1f19310245728f158865aaa428860613a418085ab0ff3ecdf4cbc029f` |
+| S003 | [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/AGENTS.md) | 14579 | `eafcea2dea85a8f742d8234a42e1f97489d4a454` | `aec416f606eb18ffe309812cb738452568068d0a92715b0c243bbc76efa20ee9` |
+| S004 | [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/LICENSE) | 1066 | `14a8ed43d478e8bf5a3c0af35d2e89554f7667c5` | `3cbaae77c6486b1d262cf7ff79cbcb4be21205fdcf09bea8e9375ae94973619e` |
+| S005 | [CAN_Connecting_Accessibility_Champions_Networks.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/CAN_Connecting_Accessibility_Champions_Networks.md) | 14174 | `50f6481a206fb1d02305548823b18014207d17f1` | `8e1a6670458dbd1d147b4d8095444d326fa2df7d08c00486bde295753a064347` |
+| S006 | [Programme_Operating_and_Reporting_Map.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/Programme_Operating_and_Reporting_Map.md) | 7961 | `0ad4d680c6d6a6d07ad2470f7cbbaa6e183b64fb` | `d6356d851901f0057c3f698d587b103f178377b299e29b76984150a18b334d8e` |
 
 ## Original heading lookup
 
