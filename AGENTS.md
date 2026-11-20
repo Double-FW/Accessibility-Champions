@@ -41,6 +41,8 @@ The primary materials are:
 - [README.md](./README.md): repository overview, intended audiences, and high-level framing.
 - [Accessibility-Champions-Network-Guidance.md](./Accessibility-Champions-Network-Guidance.md): the principal guidance for establishing, resourcing, governing, and scaling an Accessibility Champions Network.
 - [CAN_Connecting_Accessibility_Champions_Networks.md](./CAN_Connecting_Accessibility_Champions_Networks.md): guidance on how internal champions networks can connect with the wider CAN community and learn from peer experience.
+- [Programme-Examples/Intuit-Accessibility-Champions/README.md](./Programme-Examples/Intuit-Accessibility-Champions/README.md): an attributed summary of Intuit’s described programme as an adaptable example, with evidence limits made explicit.
+- [Programme-Examples/Intuit-Accessibility-Champions/Programme-Design-Runbook-Template.md](./Programme-Examples/Intuit-Accessibility-Champions/Programme-Design-Runbook-Template.md): a question-led template for designing a locally appropriate champions programme.
 - [Programme_Operating_and_Reporting_Map.md](./Programme_Operating_and_Reporting_Map.md): an operational map showing how the repository's guidance relates to broader programme design, reporting, capability assessment, and decision-making.
 - [AGENTS.md](./AGENTS.md): this governance file for AI and automated tool use.
 - [LICENSE](./LICENSE): the repository's licensing terms.
