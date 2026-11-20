@@ -5,12 +5,12 @@ from pathlib import Path
 import re
 from urllib.parse import quote
 import yaml
+from rag_reference import validate_reference
 from jsonschema import Draft202012Validator
 from champions_hf_common import ROOT, SOURCE, MANAGED, destination, digest, git, load_config, read_sources
 
 CONTEXT = ['AGENTS.md', 'README.md', 'Accessibility-Champions-Network-Guidance.md',
            'CAN_Connecting_Accessibility_Champions_Networks.md', 'Programme_Operating_and_Reporting_Map.md']
-SNAPSHOT = 'e26813bd11f327129e4833169ca95e65c4646d14'
 RAG = 'Accessibility-Champions-RAG-and-Prompts/RAG_Reference.md'
 
 class UniqueKeyLoader(yaml.SafeLoader):
@@ -76,15 +76,16 @@ def build(root, output):
     texts, manifest, omitted = read_sources(root, cfg)
     sha = git(root, 'rev-parse', 'HEAD').decode().strip()
     date = git(root, 'show', '-s', '--format=%cs', 'HEAD').decode().strip()
+    snapshot = validate_reference(texts, SOURCE)
     warnings = [
         'AGENTS.md is advisory source governance, not runtime authority or an implemented control system.',
-        'The RAG/prompts pack describes the historical e26813bd11f327129e4833169ca95e65c4646d14 snapshot, not current repository coverage. Its absent Sources/ directory is not invented or fetched.',
-        'The historical RAG embeds an older AGENTS.md with CC-BY-4.0 while the current guide and root LICENSE are MIT. Source notices remain intact; see LICENSE_NOTICES.md.',
+        'The RAG reference covers selected current knowledge sources at its pinned revision, not every tracked file; complete compiled bodies, coverage and source hashes are checked before export.',
+        'The current selected-source reference, agent guidance and root LICENSE use MIT for original material. Prior reference editions and their original notices remain in Git history; third-party source boundaries are retained.',
         'Source costs, staffing, durations and membership figures are illustrative planning values, not current quotes, adopted budgets or verified outcomes.'
     ]
     for path, text in texts.items():
         declared = str(metadata(text).get('license', 'MIT'))
-        if path != RAG and declared != 'MIT':
+        if declared != 'MIT':
             raise ValueError('Source licence declaration changed; review before publication: ' + path)
     def row(path, key, title, body, a, b, hierarchy, kind):
         md = metadata(texts[path])
@@ -97,9 +98,9 @@ def build(root, output):
             'heading_path': hierarchy, 'metadata_json': json.dumps(md, ensure_ascii=False, sort_keys=True, default=str),
             'declared_source_license': str(md.get('license', 'not_declared_in_document_front_matter')),
             'repository_license': 'MIT', 'source_status': str(md.get('status', 'see_source')),
-            'applicable_source_license': 'MIT; embedded historical AGENTS.md declares CC-BY-4.0' if path == RAG else 'MIT',
-            'source_temporal_scope': 'historical_snapshot_support_pack' if path.startswith('Accessibility-Champions-RAG-and-Prompts/') else 'current_repository_guidance',
-            'embedded_snapshot_commit': SNAPSHOT if path.startswith('Accessibility-Champions-RAG-and-Prompts/') else '',
+            'applicable_source_license': 'MIT; retain attribution and applicable third-party source notices',
+            'source_temporal_scope': 'support_pack_at_pinned_source_revision' if path.startswith('Accessibility-Champions-RAG-and-Prompts/') else 'current_repository_guidance',
+            'embedded_snapshot_commit': snapshot['source_commit'] if path.startswith('Accessibility-Champions-RAG-and-Prompts/') else '',
             'source_document_intro': sections(texts[path])[0][2],
             'interpretation_notice': 'Advisory planning source. Costs, staffing and schedules require local review. Prompts and templates are illustrative; no approvals, evaluated outcomes or runtime authority are conferred.',
             'dataset_version': cfg['dataset_version'], 'source_commit_date': date, 'language': 'en-GB',
@@ -110,10 +111,10 @@ def build(root, output):
         if path not in texts:
             continue
         text = texts[path]
-        kind = ('historical_reference_document_only_with_embedded_rights_notice' if path == RAG else
+        kind = ('refreshed_reference_document_only' if path == RAG else
                 'illustrative_programme_activities_and_prompts' if path.endswith('Programme_Management_Activities_and_Prompts.md') else
-                'historical_snapshot_coverage' if path.endswith('Source_Coverage.md') else
-                'historical_pack_orientation' if path == 'Accessibility-Champions-RAG-and-Prompts/README.md' else
+                'selected_source_coverage' if path.endswith('Source_Coverage.md') else
+                'support_pack_orientation' if path == 'Accessibility-Champions-RAG-and-Prompts/README.md' else
                 'advisory_agent_governance' if path == 'AGENTS.md' else
                 'editorial_programme_routing_not_adopted_operating_model' if path == 'Programme_Operating_and_Reporting_Map.md' else
                 'peer_networking_guidance' if path.startswith('CAN_') else
@@ -146,7 +147,7 @@ def build(root, output):
     write_json('record_schema.json', schema)
     write_json('provenance.json', {'source_repository': SOURCE, 'source_commit': sha, 'source_commit_date': date,
         'destination_dataset': target, 'dataset_version': cfg['dataset_version'], 'files': manifest,
-        'omitted_optional_files': omitted, 'source_warnings': warnings, 'external_sources_fetched': False, 'document_only_files': cfg['document_only_files'], 'historical_snapshot_commit': SNAPSHOT, 'operational_approval_claimed': False})
+        'omitted_optional_files': omitted, 'source_warnings': warnings, 'external_sources_fetched': False, 'document_only_files': cfg['document_only_files'], 'rag_source_revision': snapshot['source_commit'], 'rag_reference_validated': True, 'rag_snapshot_metadata': snapshot, 'operational_approval_claimed': False})
     notices = f"""# Source rights and attribution
 
 Current repository: https://github.com/{SOURCE}
@@ -154,21 +155,17 @@ Current repository: https://github.com/{SOURCE}
 Source revision: `{sha}`. Root LICENSE: MIT, copyright (c) 2026 Double-FW.
 Current AGENTS.md: MIT; author Gareth Ford Williams, Double FW Ltd.
 
-The complete historical reference at `{RAG}` embeds AGENTS.md version 1.3,
-credited to Gareth Ford Williams, Double FW Ltd, declaring CC-BY-4.0.
-Historical original: https://github.com/{SOURCE}/blob/{SNAPSHOT}/AGENTS.md
-CC BY 4.0 licence: https://creativecommons.org/licenses/by/4.0/
+The refreshed reference at `{RAG}` uses the selected source set at
+`{snapshot['source_commit']}`, including current MIT agent guidance and the unchanged
+root licence. Attribution and applicable third-party notices remain in source bodies.
+Previous exported editions and their original notices remain in dataset/Git history;
+this current edition does not rewrite or relicense those historical copies.
 
-That embedded notice is retained exactly. Current MIT declarations do not silently
-replace the older embedded declaration. Observe applicable attribution and licence
-notices when reusing this historical material. The historical pack itself records
-the root/file-level difference. This is a disclosure of recorded notices, not an
-independent legal or rights determination.
-
-Export changes: source bytes are preserved in JSON strings; metadata, section
-boundaries, source URLs, hashes and interpretation labels are added. The RAG
-reference is a complete-document record only, to avoid repeating historical source
-bodies in the section view. No editorial correction or substantive rewrite is made.
+Export changes: source bytes are preserved in JSON strings; metadata, section boundaries,
+source URLs, hashes and interpretation labels are added. The compiled reference is a
+complete-document record only, avoiding duplicate compiled bodies in the section view.
+The selected-source manifest and compiled bodies are checked against current canonical
+files before export. This is a packaging and correspondence check, not a legal opinion.
 Third-party linked material is not fetched, included or relicensed.
 """
     (output/'LICENSE_NOTICES.md').write_text(notices, encoding='utf-8')
@@ -176,9 +173,7 @@ Third-party linked material is not fetched, included or relicensed.
 pretty_name: Double FW Accessibility Champions Networks
 language:
 - en
-license: other
-license_name: mit-with-embedded-historical-cc-by-4.0-notice
-license_link: https://huggingface.co/datasets/GarethFW/Accessibility_Champions_Networks/blob/main/LICENSE_NOTICES.md
+license: mit
 tags:
 - accessibility
 - organisational-change
@@ -201,7 +196,7 @@ configs:
 
 Guidance for establishing, resourcing and supporting accessibility champions networks,
 peer learning through CAN, programme reporting and human-reviewed AI assistance.
-The corpus includes nine Markdown files: current guidance plus a dated RAG/prompts
+The corpus includes nine Markdown files: current guidance plus a refreshed selected-source RAG/prompts
 pack. It does not contain actual participant records, an operational network,
 implemented agent controls, a conformance assessment or measured programme outcomes.
 
@@ -210,19 +205,20 @@ implemented agent controls, a conformance assessment or measured programme outco
 Source: https://github.com/{SOURCE}
 
 Current checkout: `{sha}` ({date}). Export format: {cfg['dataset_version']}.
-The four RAG/prompts pack files describe the historical snapshot `{SNAPSHOT}`,
-prepared 8 November 2026. Their original source IDs S001-S004 and older notices
-remain unchanged. Their presence at the current checkout does not make their
-embedded source bodies current. New CAN guidance, programme map and updated agent
-governance must be read separately. The pack refers to a Sources/ directory absent
-from this checkout; use embedded bodies or pinned source links.
+The RAG reference covers {snapshot['source_file_count']} selected sources at revision
+`{snapshot['source_commit']}`, prepared {snapshot['prepared']}. Original source IDs
+S001-S004 remain stable; CAN peer-networking guidance and the programme map are now
+included as S005-S006. The reference excludes derived pack files, publishing code,
+configuration and tests; it is not an archive of the entire repository. Its source
+hashes, complete compiled bodies and coverage are checked before export. Source dates
+and draft status remain distinct from preparation and publication dates.
 
 ## Dataset views and duplication
 
 - `knowledge_chunks` (default): {len(chunks)} exact sections from eight Markdown files.
-- `documents`: {len(docs)} complete Markdown files, including the historical RAG reference.
+- `documents`: {len(docs)} complete Markdown files, including the refreshed RAG reference.
 
-The historical RAG reference is document-only: it repeats original source bodies
+The compiled RAG reference is document-only: it repeats original source bodies
 and is deliberately excluded from the section view. Other documents also quote or
 summarise shared ideas. Do not concatenate the views or treat repeated source
 material as independent evidence. Deduplicate and review any training selection.
@@ -233,7 +229,7 @@ labels of actual results, model training or model evaluation are supplied.
 
 Rows retain source path, exact commit URL, original line range, hashes, heading
 path and JSON-encoded front matter. `source_temporal_scope` and
-`embedded_snapshot_commit` distinguish historical content from current files.
+`embedded_snapshot_commit` identify the pinned selected source set behind the refreshed pack.
 `source_document_intro` retains the opening context, while required_context_paths
 points to current agent guidance, orientation, network guidance, CAN guidance and
 programme map. These references do not enforce runtime retrieval or authority.
@@ -254,19 +250,19 @@ budgets, implement audit/approval services or run proposed evaluations.
 
 ## Rights and attribution
 
-The current root LICENSE and AGENTS.md declare MIT. The historical RAG embeds an
-older AGENTS.md declaring CC-BY-4.0 and crediting Gareth Ford Williams, Double FW
-Ltd. Both notices are preserved. Hub metadata uses `other` to point to
-LICENSE_NOTICES.md rather than describe all embedded material as uniformly MIT.
-Read that notice and LICENSE before reuse. Linked third-party materials are not
-included or relicensed. This packaging check is not an independent rights review.
+The current root LICENSE, AGENTS.md and selected-source reference declare MIT for
+original repository material. The dataset card uses MIT and LICENSE_NOTICES.md explains
+attribution, third-party boundaries and the difference from historical exports.
+Prior revisions retain their original notices and are not silently relicensed.
+Read LICENSE and specific source notices before reuse. Linked third-party materials
+are not included or relicensed. This packaging check is not an independent rights review.
 
 ## Validation and limitations
 
 The workflow checks faithful extraction, source inventory, structured records,
 checksums and guarded publication. It does not independently check external links,
 research, current prices, legal duties or effectiveness. Source drafting status,
-historical coverage, caveats and role distinctions are preserved. No missing
+selected-source coverage, caveats and role distinctions are preserved. No missing
 organisational evidence is invented. See provenance.json, record_schema.json and
 validation_report.json for the exact snapshot and limited checks.
 
