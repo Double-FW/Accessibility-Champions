@@ -18,6 +18,7 @@ Standards and evaluation remain essential. Culture influences whether people mak
 | --- | --- |
 | Establish a network or strengthen an existing one | [Accessibility Champions Network Guidance](./Accessibility-Champions-Network-Guidance.md) |
 | Connect your managers and champions with a wider community | [Connecting networks through CAN](./CAN_Connecting_Accessibility_Champions_Networks.md) |
+| Learn from an attributed, adaptable programme example | [Intuit Accessibility Champions programme](./Programme-Examples/Intuit-Accessibility-Champions/README.md) and [runbook template](./Programme-Examples/Intuit-Accessibility-Champions/Programme-Design-Runbook-Template.md) |
 | Connect the network with wider accessibility programme decisions and reporting | [Programme Operating and Reporting Map](./Programme_Operating_and_Reporting_Map.md) |
 | Find practical management activities and example AI prompts | [Programme Management Activities and Prompts](./Accessibility-Champions-RAG-and-Prompts/Programme_Management_Activities_and_Prompts.md) |
 | Use the repository with an AI assistant or agent | Read [AGENTS.md](./AGENTS.md), then the relevant current guidance |
