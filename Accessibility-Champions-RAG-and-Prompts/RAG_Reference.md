@@ -2,7 +2,7 @@
 title: Accessibility Champions selected-source RAG reference
 prepared: '2026-11-20'
 source_repository: https://github.com/Double-FW/Accessibility-Champions
-source_commit: 3a4744e9745ac715efbe6b5d4c29b4c7c541af81
+source_commit: d1cf60029c53c74a6293020b5b6c8ea501f2742f
 language: en-GB
 license: MIT
 document_type: retrieval_reference
@@ -16,14 +16,14 @@ source_manifest:
   blob_sha: 7e911646134efd70ccca18cc888e818ff2b8f700
 - id: S002
   path: README.md
-  bytes: 9909
-  sha256: 0b13af33e11624e80bbee77163a6a32407f5677cf0e551a52adf34bdb1a14d0e
-  blob_sha: 018d44b96d7260e6e8b9c8b64155db60ed60ae42
+  bytes: 10188
+  sha256: 0a918eb1f19310245728f158865aaa428860613a418085ab0ff3ecdf4cbc029f
+  blob_sha: ca6fdbe74ae6bde4e522d723fceafb4172f03ccc
 - id: S003
   path: AGENTS.md
-  bytes: 14071
-  sha256: 3cdd29a5eee52d9253365ae7f9580c07a28eab45667d741170c6cbe7747dab31
-  blob_sha: ce8dea28bf3f0f1792e723d8731546651c055ed0
+  bytes: 14579
+  sha256: aec416f606eb18ffe309812cb738452568068d0a92715b0c243bbc76efa20ee9
+  blob_sha: eafcea2dea85a8f742d8234a42e1f97489d4a454
 - id: S004
   path: LICENSE
   bytes: 1066
@@ -74,9 +74,9 @@ Recognised relative inline Markdown links outside fenced code are resolved for r
 
 ## S001 — Accessibility-Champions-Network-Guidance.md
 
-**Source:** [Accessibility-Champions-Network-Guidance.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Accessibility-Champions-Network-Guidance.md)
+**Source:** [Accessibility-Champions-Network-Guidance.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/Accessibility-Champions-Network-Guidance.md)
 
-**Revision:** `3a4744e9745ac715efbe6b5d4c29b4c7c541af81`
+**Revision:** `d1cf60029c53c74a6293020b5b6c8ea501f2742f`
 
 **Original Git blob:** `7e911646134efd70ccca18cc888e818ff2b8f700`
 
@@ -618,11 +618,11 @@ This creates a practical foundation for building a sustainable Accessibility Cha
 
 ## S002 — README.md
 
-**Source:** [README.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/README.md)
+**Source:** [README.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/README.md)
 
-**Revision:** `3a4744e9745ac715efbe6b5d4c29b4c7c541af81`
+**Revision:** `d1cf60029c53c74a6293020b5b6c8ea501f2742f`
 
-**Original Git blob:** `018d44b96d7260e6e8b9c8b64155db60ed60ae42`
+**Original Git blob:** `ca6fdbe74ae6bde4e522d723fceafb4172f03ccc`
 
 # Accessibility Champions
 
@@ -642,11 +642,12 @@ Standards and evaluation remain essential. Culture influences whether people mak
 
 | What you want to do | Where to start |
 | --- | --- |
-| Establish a network or strengthen an existing one | [Accessibility Champions Network Guidance](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Accessibility-Champions-Network-Guidance.md) |
-| Connect your managers and champions with a wider community | [Connecting networks through CAN](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/CAN_Connecting_Accessibility_Champions_Networks.md) |
-| Connect the network with wider accessibility programme decisions and reporting | [Programme Operating and Reporting Map](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Programme_Operating_and_Reporting_Map.md) |
+| Establish a network or strengthen an existing one | [Accessibility Champions Network Guidance](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/Accessibility-Champions-Network-Guidance.md) |
+| Connect your managers and champions with a wider community | [Connecting networks through CAN](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/CAN_Connecting_Accessibility_Champions_Networks.md) |
+| Learn from an attributed, adaptable programme example | [Intuit Accessibility Champions programme](https://github.com/Double-FW/Accessibility-Champions/blob/main/Programme-Examples/Intuit-Accessibility-Champions/README.md) and [runbook template](https://github.com/Double-FW/Accessibility-Champions/blob/main/Programme-Examples/Intuit-Accessibility-Champions/Programme-Design-Runbook-Template.md) |
+| Connect the network with wider accessibility programme decisions and reporting | [Programme Operating and Reporting Map](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/Programme_Operating_and_Reporting_Map.md) |
 | Find practical management activities and example AI prompts | [Programme Management Activities and Prompts](https://github.com/Double-FW/Accessibility-Champions/blob/main/Accessibility-Champions-RAG-and-Prompts/Programme_Management_Activities_and_Prompts.md) |
-| Use the repository with an AI assistant or agent | Read [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/AGENTS.md), then the relevant current guidance |
+| Use the repository with an AI assistant or agent | Read [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/AGENTS.md), then the relevant current guidance |
 | Prepare material for retrieval-augmented generation (RAG) | Read the [RAG Reference](https://github.com/Double-FW/Accessibility-Champions/blob/main/Accessibility-Champions-RAG-and-Prompts/RAG_Reference.md) alongside [Source Coverage](https://github.com/Double-FW/Accessibility-Champions/blob/main/Accessibility-Champions-RAG-and-Prompts/Source_Coverage.md) and the snapshot note below |
 
 ## For people: turn commitment into everyday practice
@@ -681,13 +682,13 @@ Every organisation’s network is different, but many face similar change manage
 
 The **Champions of Accessibility Network (CAN)**, run by **Heather Hepburn, Charlie Turrell and Gareth Ford Williams**, connects practitioners across organisations and disciplines. Regular engagement can help network managers exchange approaches and help individual champions feel supported as part of a much bigger movement.
 
-The [CAN guidance](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/CAN_Connecting_Accessibility_Champions_Networks.md) explains the value for organisations, managers and members, with suggestions for reciprocal learning, accessible participation and bringing useful experience back into local practice.
+The [CAN guidance](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/CAN_Connecting_Accessibility_Champions_Networks.md) explains the value for organisations, managers and members, with suggestions for reciprocal learning, accessible participation and bringing useful experience back into local practice.
 
 ## For agents: use the knowledge with context
 
 This repository can inform skills, RAG knowledge sources and MCP-enabled workflows that support accessibility programme work. It supplies guidance and prompts; building or connecting those systems requires separate implementation.
 
-Start with [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/AGENTS.md) for repository-specific operating guidance. Then retrieve the documents relevant to the task, preserving their purpose, context and evidence limits.
+Start with [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/AGENTS.md) for repository-specific operating guidance. Then retrieve the documents relevant to the task, preserving their purpose, context and evidence limits.
 
 ### Choose sources by task
 
@@ -729,7 +730,7 @@ When changing selected source material, refresh the compiled reference and cover
 
 ## Licence
 
-The repository is licensed under the [MIT Licence](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/LICENSE). Consult that file for the terms, and retain applicable copyright and permission notices when reusing the material. Historical snapshots may preserve earlier file-level notices; do not silently rewrite them.
+The repository is licensed under the [MIT Licence](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/LICENSE). Consult that file for the terms, and retain applicable copyright and permission notices when reusing the material. Historical snapshots may preserve earlier file-level notices; do not silently rewrite them.
 
 
 ---
@@ -738,11 +739,11 @@ The repository is licensed under the [MIT Licence](https://github.com/Double-FW/
 
 ## S003 — AGENTS.md
 
-**Source:** [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/AGENTS.md)
+**Source:** [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/AGENTS.md)
 
-**Revision:** `3a4744e9745ac715efbe6b5d4c29b4c7c541af81`
+**Revision:** `d1cf60029c53c74a6293020b5b6c8ea501f2742f`
 
-**Original Git blob:** `ce8dea28bf3f0f1792e723d8731546651c055ed0`
+**Original Git blob:** `eafcea2dea85a8f742d8234a42e1f97489d4a454`
 
 ---
 title: "Accessibility Champions Network Agent Governance"
@@ -784,12 +785,14 @@ It should be read as a governance document for AI use, not as a runtime contract
 This repository contains multiple complementary guidance documents. Agents should treat them as a connected body of strategy and organizational guidance, while preserving their different purposes and evidential weight.
 
 The primary materials are:
-- [README.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/README.md): repository overview, intended audiences, and high-level framing.
-- [Accessibility-Champions-Network-Guidance.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Accessibility-Champions-Network-Guidance.md): the principal guidance for establishing, resourcing, governing, and scaling an Accessibility Champions Network.
-- [CAN_Connecting_Accessibility_Champions_Networks.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/CAN_Connecting_Accessibility_Champions_Networks.md): guidance on how internal champions networks can connect with the wider CAN community and learn from peer experience.
-- [Programme_Operating_and_Reporting_Map.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Programme_Operating_and_Reporting_Map.md): an operational map showing how the repository's guidance relates to broader programme design, reporting, capability assessment, and decision-making.
-- [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/AGENTS.md): this governance file for AI and automated tool use.
-- [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/LICENSE): the repository's licensing terms.
+- [README.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/README.md): repository overview, intended audiences, and high-level framing.
+- [Accessibility-Champions-Network-Guidance.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/Accessibility-Champions-Network-Guidance.md): the principal guidance for establishing, resourcing, governing, and scaling an Accessibility Champions Network.
+- [CAN_Connecting_Accessibility_Champions_Networks.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/CAN_Connecting_Accessibility_Champions_Networks.md): guidance on how internal champions networks can connect with the wider CAN community and learn from peer experience.
+- [Programme-Examples/Intuit-Accessibility-Champions/README.md](https://github.com/Double-FW/Accessibility-Champions/blob/main/Programme-Examples/Intuit-Accessibility-Champions/README.md): an attributed summary of Intuit’s described programme as an adaptable example, with evidence limits made explicit.
+- [Programme-Examples/Intuit-Accessibility-Champions/Programme-Design-Runbook-Template.md](https://github.com/Double-FW/Accessibility-Champions/blob/main/Programme-Examples/Intuit-Accessibility-Champions/Programme-Design-Runbook-Template.md): a question-led template for designing a locally appropriate champions programme.
+- [Programme_Operating_and_Reporting_Map.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/Programme_Operating_and_Reporting_Map.md): an operational map showing how the repository's guidance relates to broader programme design, reporting, capability assessment, and decision-making.
+- [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/AGENTS.md): this governance file for AI and automated tool use.
+- [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/LICENSE): the repository's licensing terms.
 
 Additional support materials in the resource pack folder:
 - [Accessibility-Champions-RAG-and-Prompts/README.md](https://github.com/Double-FW/Accessibility-Champions/blob/main/Accessibility-Champions-RAG-and-Prompts/README.md): overview of the downloadable programme-management pack.
@@ -805,7 +808,7 @@ Agents MUST preserve the distinction between these documents and avoid treating 
 
 ## License and legal framing
 
-The repository is licensed under the MIT License, as stated in [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/LICENSE).
+The repository is licensed under the MIT License, as stated in [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/LICENSE).
 
 Agents MUST observe the repository's actual licensing terms rather than inventing or substituting another license. In particular:
 - the repository content and associated materials are governed by the MIT License unless a separate source or file explicitly states otherwise;
@@ -961,7 +964,7 @@ This file should remain concise, readable, and operationally useful. It should b
 
 This repository is best treated as a governance and organisational design reference for accessibility champions networks, programme management, and organisational capability development. Agent behavior should therefore be conservative, evidence-based, and explicit about uncertainty.
 
-The repository includes strategic guidance, peer-learning context, programme operating logic, and supporting RAG/prompt materials. The repository is MIT-licensed under [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/LICENSE). This file sets intended operational rails for AI use of the repository. It does not claim enforcement, legal authority, or runtime capability.
+The repository includes strategic guidance, peer-learning context, programme operating logic, and supporting RAG/prompt materials. The repository is MIT-licensed under [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/LICENSE). This file sets intended operational rails for AI use of the repository. It does not claim enforcement, legal authority, or runtime capability.
 
 
 ## Maintenance record
@@ -975,9 +978,9 @@ The repository includes strategic guidance, peer-learning context, programme ope
 
 ## S004 — LICENSE
 
-**Source:** [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/LICENSE)
+**Source:** [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/LICENSE)
 
-**Revision:** `3a4744e9745ac715efbe6b5d4c29b4c7c541af81`
+**Revision:** `d1cf60029c53c74a6293020b5b6c8ea501f2742f`
 
 **Original Git blob:** `14a8ed43d478e8bf5a3c0af35d2e89554f7667c5`
 
@@ -1012,9 +1015,9 @@ SOFTWARE.
 
 ## S005 — CAN_Connecting_Accessibility_Champions_Networks.md
 
-**Source:** [CAN_Connecting_Accessibility_Champions_Networks.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/CAN_Connecting_Accessibility_Champions_Networks.md)
+**Source:** [CAN_Connecting_Accessibility_Champions_Networks.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/CAN_Connecting_Accessibility_Champions_Networks.md)
 
-**Revision:** `3a4744e9745ac715efbe6b5d4c29b4c7c541af81`
+**Revision:** `d1cf60029c53c74a6293020b5b6c8ea501f2742f`
 
 **Original Git blob:** `50f6481a206fb1d02305548823b18014207d17f1`
 
@@ -1196,9 +1199,9 @@ Attendance figures cannot establish accessibility conformance, reduced burnout o
 
 ## S006 — Programme_Operating_and_Reporting_Map.md
 
-**Source:** [Programme_Operating_and_Reporting_Map.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Programme_Operating_and_Reporting_Map.md)
+**Source:** [Programme_Operating_and_Reporting_Map.md](https://github.com/Double-FW/Accessibility-Champions/blob/d1cf60029c53c74a6293020b5b6c8ea501f2742f/Programme_Operating_and_Reporting_Map.md)
 
-**Revision:** `3a4744e9745ac715efbe6b5d4c29b4c7c541af81`
+**Revision:** `d1cf60029c53c74a6293020b5b6c8ea501f2742f`
 
 **Original Git blob:** `0ad4d680c6d6a6d07ad2470f7cbbaa6e183b64fb`
 
