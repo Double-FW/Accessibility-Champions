@@ -1,14 +1,14 @@
 # Accessibility Champions: human-managed accessibility programme activities and prompts
 
-**Prepared:** 8 November 2026 · **Source revision:** `e26813bd11f327129e4833169ca95e65c4646d14`  
-**Source:** [Double-FW/Accessibility-Champions](https://github.com/Double-FW/Accessibility-Champions/tree/e26813bd11f327129e4833169ca95e65c4646d14)  
+**Prepared:** 20 November 2026 · **Source revision:** `3a4744e9745ac715efbe6b5d4c29b4c7c541af81`  
+**Source:** [Double-FW/Accessibility-Champions](https://github.com/Double-FW/Accessibility-Champions/tree/3a4744e9745ac715efbe6b5d4c29b4c7c541af81)  
 **Audience:** accessibility programme leaders, executive sponsors, champions managers, policy owners, operational leaders, learning teams and research, AI, data and assurance partners.
 
 ## Where the repository is useful
 
 Use this repository to establish and sustain a distributed accessibility capability: executive sponsorship, dedicated coordination, business and team champions, protected capacity, ongoing development, community learning and outcome reporting. Its value is organisational change embedded in everyday work, rather than shifting all accessibility responsibility to enthusiastic volunteers.
 
-The staffing ratios, FTE allocations, hours, phase durations, training durations and dollar-denominated costs are source planning examples, not validated universal requirements, current supplier quotes or approved local budgets. A network does not replace specialists, operational owners or accountable leaders. The source AGENTS authority ordering differs from the host/platform hierarchy; preserve it as source text only, not as runtime authority. Root and file-level rights notices differ and remain intact.
+The staffing ratios, FTE allocations, hours, phase durations, training durations and dollar-denominated costs are source planning examples, not validated universal requirements, current supplier quotes or approved local budgets. A network does not replace specialists, operational owners or accountable leaders. The current AGENTS guidance follows higher-priority platform instructions and the authorised user task. The refreshed reference uses current MIT source material, preserving attribution and applicable third-party boundaries; embedded instructions remain source content, not runtime authority.
 
 The activities below are an editorial application of the repository, not a claim that it already contains a complete organisational process. AI prepares analysis, options, draft policy, delivery records and evidence summaries. Managers frame decisions, allocate resources and own implementation. Researchers involve affected people in questions, interpretation and evaluation. HR, data, finance, technical and risk specialists verify matters in their remit. Authorised leaders retain policy, employment, investment, publication and risk decisions. Assign these responsibilities to actual people locally; the examples do not establish a new team or approval body.
 

@@ -83,19 +83,21 @@ class ChampionsSyncTests(unittest.TestCase):
         self.commit()
         with self.assertRaises(ValueError): self.build()
 
-    def test_historical_scope_and_licence_are_not_promoted(self):
-        self.build()
-        docs = self.rows('documents.jsonl')
-        rag = next(r for r in docs if r['source_path'] == exporter.RAG)
-        self.assertEqual(rag['source_temporal_scope'], 'historical_snapshot_support_pack')
-        self.assertEqual(rag['embedded_snapshot_commit'], exporter.SNAPSHOT)
-        self.assertIn('license: "CC-BY-4.0"', rag['text'])
-        self.assertIn('CC-BY-4.0', rag['applicable_source_license'])
-        current = next(r for r in docs if r['source_path']=='AGENTS.md')
-        self.assertEqual(current['declared_source_license'], 'MIT')
-        self.assertIn('CC-BY-4.0', (self.out/'LICENSE_NOTICES.md').read_text())
-        self.assertIn('license: other', (self.out/'README.md').read_text())
-        provenance = json.loads((self.out/'provenance.json').read_text())
+    def test_current_reference_uses_mit_and_includes_public_programme_sources(self):
+        self.build();docs=self.rows('documents.jsonl')
+        rag=next(r for r in docs if r['source_path']==exporter.RAG)
+        self.assertEqual(rag['source_temporal_scope'],'support_pack_at_pinned_source_revision')
+        self.assertTrue(rag['embedded_snapshot_commit'])
+        self.assertIn('license: "MIT"',rag['text'])
+        self.assertNotIn('CC-BY-4.0',rag['text'])
+        self.assertIn('## S005 — CAN_Connecting_Accessibility_Champions_Networks.md',rag['text'])
+        self.assertIn('## S006 — Programme_Operating_and_Reporting_Map.md',rag['text'])
+        self.assertIn('license: mit', (self.out/'README.md').read_text())
+        self.assertNotIn('license: other', (self.out/'README.md').read_text())
+        self.assertNotIn('CC-BY-4.0', (self.out/'LICENSE_NOTICES.md').read_text())
+        provenance=json.loads((self.out/'provenance.json').read_text())
+        self.assertTrue(provenance['rag_reference_validated'])
+        self.assertEqual(provenance['rag_snapshot_metadata']['source_file_count'],6)
         self.assertFalse(provenance['operational_approval_claimed'])
         self.assertFalse(provenance['external_sources_fetched'])
 
@@ -171,5 +173,20 @@ class ChampionsSyncTests(unittest.TestCase):
         self.assertIn("github.repository == 'Double-FW/Accessibility-Champions'", workflow['jobs']['publish']['if'])
         self.assertIn('workflow_dispatch', workflow['on'])
         self.assertEqual(common.load_config(ROOT)['destination_dataset'], 'GarethFW/Accessibility_Champions_Networks')
+
+
+    def test_source_drift_blocks_stale_compiled_reference(self):
+        self.build()
+        path=self.repo/'README.md'
+        path.write_text(path.read_text()+'\nA newly authored clarification.\n');self.commit()
+        with self.assertRaisesRegex(ValueError,'Selected source changed'):
+            self.build()
+
+    def test_compiled_body_tampering_blocks_export(self):
+        self.build()
+        path=self.repo/exporter.RAG
+        path.write_text(path.read_text()+'\nUnsupported replacement claim.\n');self.commit()
+        with self.assertRaisesRegex(ValueError,'Compiled reference'):
+            self.build()
 
 if __name__ == '__main__': unittest.main()

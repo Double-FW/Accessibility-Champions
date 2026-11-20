@@ -1,22 +1,21 @@
-# Source coverage — Accessibility Champions
+# Source coverage for Accessibility Champions
 
-Repository: https://github.com/Double-FW/Accessibility-Champions  
-Snapshot commit: `e26813bd11f327129e4833169ca95e65c4646d14`  
-Retrieved: 8 November 2026  
-Coverage: **4/4 tracked files; 36,431 original UTF-8 bytes retained.**
+Source revision: `3a4744e9745ac715efbe6b5d4c29b4c7c541af81`. Prepared 2026-11-20.
 
-Every file in the recursive repository inventory was fetched by its blob SHA. Every preserved source was checked against the inventory byte count and Git blob hash. Source bodies are complete; the RAG adds navigation and provenance and resolves recognised inline source links. All source files are also included separately without content edits. No branches, issues, pull requests, history, submodules or external linked materials are claimed as part of this snapshot. The inventory reported no truncation and contained only regular text-file blobs and directories.
+This register covers 6 selected knowledge/governance/rights files, not every tracked file. Canonical source bodies are complete in the RAG reference with the disclosed navigation transformation. SHA-256 and Git blob hashes below identify the original UTF-8 bytes before transformation. Hash agreement establishes source correspondence, not truth, currency, approval or effectiveness. External linked contents, Git history and the derived pack itself are outside this source set.
 
-| Source ID | File at pinned revision | Role | Original bytes | Blob SHA |
-| --- | --- | --- | ---: | --- |
-| S001 | [Accessibility-Champions-Network-Guidance.md](https://github.com/Double-FW/Accessibility-Champions/blob/e26813bd11f327129e4833169ca95e65c4646d14/Accessibility-Champions-Network-Guidance.md) | Primary programme guidance | 19,151 | `7e911646134efd70ccca18cc888e818ff2b8f700` |
-| S002 | [README.md](https://github.com/Double-FW/Accessibility-Champions/blob/e26813bd11f327129e4833169ca95e65c4646d14/README.md) | Management/reference material | 7,130 | `5fb0fb8e636f76ce35af132ef886a99ded67d133` |
-| S003 | [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/e26813bd11f327129e4833169ca95e65c4646d14/AGENTS.md) | Source governance; advisory context | 9,084 | `e95a643836c461fa1fc9bf10a31b74f000f3183e` |
-| S004 | [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/e26813bd11f327129e4833169ca95e65c4646d14/LICENSE) | Licence / rights notice | 1,066 | `14a8ed43d478e8bf5a3c0af35d2e89554f7667c5` |
+| Source ID | Canonical source at pinned revision | Bytes | Git blob SHA | SHA-256 |
+| --- | --- | ---: | --- | --- |
+| S001 | [Accessibility-Champions-Network-Guidance.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Accessibility-Champions-Network-Guidance.md) | 19151 | `7e911646134efd70ccca18cc888e818ff2b8f700` | `1ad9600a7aa0995ac39ab7564ce6619eb8d7d969411cf23ce5044e24f51d8e8a` |
+| S002 | [README.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/README.md) | 9909 | `018d44b96d7260e6e8b9c8b64155db60ed60ae42` | `0b13af33e11624e80bbee77163a6a32407f5677cf0e551a52adf34bdb1a14d0e` |
+| S003 | [AGENTS.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/AGENTS.md) | 14071 | `ce8dea28bf3f0f1792e723d8731546651c055ed0` | `3cdd29a5eee52d9253365ae7f9580c07a28eab45667d741170c6cbe7747dab31` |
+| S004 | [LICENSE](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/LICENSE) | 1066 | `14a8ed43d478e8bf5a3c0af35d2e89554f7667c5` | `3cbaae77c6486b1d262cf7ff79cbcb4be21205fdcf09bea8e9375ae94973619e` |
+| S005 | [CAN_Connecting_Accessibility_Champions_Networks.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/CAN_Connecting_Accessibility_Champions_Networks.md) | 14174 | `50f6481a206fb1d02305548823b18014207d17f1` | `8e1a6670458dbd1d147b4d8095444d326fa2df7d08c00486bde295753a064347` |
+| S006 | [Programme_Operating_and_Reporting_Map.md](https://github.com/Double-FW/Accessibility-Champions/blob/3a4744e9745ac715efbe6b5d4c29b4c7c541af81/Programme_Operating_and_Reporting_Map.md) | 7961 | `0ad4d680c6d6a6d07ad2470f7cbbaa6e183b64fb` | `d6356d851901f0057c3f698d587b103f178377b299e29b76984150a18b334d8e` |
 
-## Heading lookup
+## Original heading lookup
 
-Use these original headings as retrieval labels within the corresponding source section. Repeated headings and source-local identifiers retain their original scope. Documents without Markdown headings can be retrieved by their source ID and explicit terms.
+Headings keep their original source scope; repeated headings do not imply independent corroboration.
 
 - **S001** · Accessibility Champions Network Guidance
 - **S001** · Purpose
@@ -60,22 +59,23 @@ Use these original headings as retrieval labels within the corresponding source 
 - **S001** · 15. Conclusion
 - **S001** · Suggested next steps
 - **S001** · Document status
-- **S002** · Accessibility-Champions
-- **S002** · Repository purpose
-- **S002** · What is in this repository
-- **S002** · Why this repository exists
-- **S002** · Human use: how leaders and teams can use it
-- **S002** · Agentic use: how AI systems should use this repository
-- **S002** · Operating principles
-- **S002** · Intended outcomes
-- **S002** · Repository posture for humans and agents
-- **S002** · Governance and guardrails
-- **S002** · Recommended starting points
-- **S002** · Summary
-- **S002** · Related files
+- **S002** · Accessibility Champions
+- **S002** · Start here
+- **S002** · For people: turn commitment into everyday practice
+- **S002** · A practical reading and planning route
+- **S002** · Connect with CAN
+- **S002** · For agents: use the knowledge with context
+- **S002** · Choose sources by task
+- **S002** · Produce reviewable work
+- **S002** · Example prompt
+- **S002** · Check the selected-source reference
+- **S002** · Contributing improvements
+- **S002** · Licence
 - **S003** · Accessibility Champions Network Agent Governance
 - **S003** · Purpose
 - **S003** · Intended role of this file
+- **S003** · Repository document map
+- **S003** · License and legal framing
 - **S003** · Scope
 - **S003** · Core operating principles
 - **S003** · Authority and conflict resolution
@@ -86,3 +86,22 @@ Use these original headings as retrieval labels within the corresponding source 
 - **S003** · Human review and escalation
 - **S003** · Maintainability
 - **S003** · Summary
+- **S003** · Maintenance record
+- **S005** · Connecting accessibility champions networks through CAN
+- **S005** · Purpose
+- **S005** · Culture makes accessibility sustainable
+- **S005** · Different organisations, shared change challenges
+- **S005** · The value for network managers
+- **S005** · The value for individual champions
+- **S005** · The value for the organisation
+- **S005** · Why regular engagement matters
+- **S005** · A manageable approach to engagement
+- **S005** · Make participation possible
+- **S005** · Learn together with trust
+- **S005** · Recognising whether engagement is helping
+- **S006** · Managing an accessibility programme with the four resources
+- **S006** · Which resource supports which decision?
+- **S006** · Keep four kinds of evidence visible
+- **S006** · A practical programme management loop
+- **S006** · Programme record for accountable review
+- **S006** · Reporting that supports action

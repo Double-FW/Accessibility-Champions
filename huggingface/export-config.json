@@ -1,7 +1,7 @@
 {
   "source_repository": "Double-FW/Accessibility-Champions",
   "destination_dataset": "GarethFW/Accessibility_Champions_Networks",
-  "dataset_version": "1.0.0",
+  "dataset_version": "1.1.0",
   "files": [
     "AGENTS.md",
     "Accessibility-Champions-Network-Guidance.md",
