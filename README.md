@@ -105,3 +105,11 @@ When changing selected source material, refresh the compiled reference and cover
 ## Licence
 
 The repository is licensed under the [MIT Licence](./LICENSE). Consult that file for the terms, and retain applicable copyright and permission notices when reusing the material. Historical snapshots may preserve earlier file-level notices; do not silently rewrite them.
+
+## About the author
+
+Gareth Ford Williams is a senior leader in accessibility and inclusive design and co-founder of Double FW Ltd. His work spans accessibility, UX, technical standards, assistive technology and inclusive media. At the BBC, he led accessibility and UX work and chaired standards governance, translating research and policy into practical guidance.
+
+## About Double FW Ltd
+
+Double FW Ltd is a UK accessibility and inclusive design consultancy. It helps organisations build accessibility into strategy, governance, brands, products, content and services. Its public repositories provide practical guidance for people and AI-assisted workflows.
